@@ -42,4 +42,23 @@
         <source-file src="ChildBrowserCommand.m" />
         <source-file src="ChildBrowserViewController.m" />
     </platform>
+
+    <!-- blackberry -->
+    <platform name="blackberry">
+        <config-file target="res/xml/plugins.xml" parent="/plugins">
+            <plugin name="ChildBrowser"
+                value="com.phonegap.plugins.childBrowser.ChildBrowser"/>
+        </config-file>
+
+        <source-file src="src/blackberry/ChildBrowser.java"
+                target-dir="src/com/phonegap/plugins/childBrowser" />
+        <source-file src="src/blackberry/ChildBrowser.java"
+                target-dir="src/com/phonegap/plugins/childBrowser" />
+        <source-file src="src/blackberry/ChildBrowser.java"
+                target-dir="src/com/phonegap/plugins/childBrowser" />
+        <source-file src="src/blackberry/ChildBrowser.java"
+                target-dir="src/com/phonegap/plugins/childBrowser" />
+        <source-file src="src/blackberry/ChildBrowser.java"
+                target-dir="src/com/phonegap/plugins/childBrowser" />
+    </platform>
 </plugin>
