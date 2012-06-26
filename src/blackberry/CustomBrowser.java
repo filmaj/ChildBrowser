@@ -20,11 +20,11 @@ import net.rim.device.api.ui.container.VerticalFieldManager;
 
 import org.w3c.dom.Document;
 
-import com.phonegap.PhoneGapExtension;
-import com.phonegap.api.PluginResult;
-import com.phonegap.json4j.JSONException;
-import com.phonegap.json4j.JSONObject;
-import com.phonegap.util.Logger;
+import org.apache.cordova.CordovaExtension;
+import org.apache.cordova.api.PluginResult;
+import org.apache.cordova.json4j.JSONException;
+import org.apache.cordova.json4j.JSONObject;
+import org.apache.cordova.util.Logger;
 
 /**
  * A custom browser screen.  Contains an optional navigation bar at the top of
@@ -268,7 +268,7 @@ public class CustomBrowser extends MainScreen {
         if (callbackId != null) {
             PluginResult result = new PluginResult(PluginResult.Status.OK, obj);
             result.setKeepCallback(keepCallback);
-            PhoneGapExtension.invokeSuccessCallback(callbackId, result);
+            CordovaExtension.invokeSuccessCallback(callbackId, result);
         }
     }
 }

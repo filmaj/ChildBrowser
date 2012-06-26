@@ -11,12 +11,12 @@ import net.rim.blackberry.api.browser.Browser;
 import net.rim.blackberry.api.browser.BrowserSession;
 import net.rim.device.api.ui.UiApplication;
 
-import com.phonegap.api.Plugin;
-import com.phonegap.api.PluginResult;
-import com.phonegap.json4j.JSONArray;
-import com.phonegap.json4j.JSONException;
-import com.phonegap.json4j.JSONObject;
-import com.phonegap.util.Logger;
+import org.apache.cordova.api.Plugin;
+import org.apache.cordova.api.PluginResult;
+import org.apache.cordova.json4j.JSONArray;
+import org.apache.cordova.json4j.JSONException;
+import org.apache.cordova.json4j.JSONObject;
+import org.apache.cordova.util.Logger;
 
 /**
  * The ChildBrowser plug-in. This class provides the ability to load external

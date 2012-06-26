@@ -45,7 +45,7 @@
 
     <!-- blackberry -->
     <platform name="blackberry">
-        <config-file target="res/xml/plugins.xml" parent="/plugins">
+        <config-file target="www/plugins.xml" parent="/plugins">
             <plugin name="ChildBrowser"
                 value="com.phonegap.plugins.childBrowser.ChildBrowser"/>
         </config-file>

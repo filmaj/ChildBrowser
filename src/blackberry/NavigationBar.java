@@ -24,7 +24,8 @@ import net.rim.device.api.ui.container.HorizontalFieldManager;
 import net.rim.device.api.ui.container.VerticalFieldManager;
 import net.rim.device.api.ui.decor.BackgroundFactory;
 
-import com.phonegap.util.Logger;
+import org.apache.cordova.util.Logger;
+
 
 /**
  * Implements a navigation bar for the custom browser. Provides UI elements to
