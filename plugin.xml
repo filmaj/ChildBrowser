@@ -47,18 +47,18 @@
     <platform name="blackberry">
         <config-file target="www/plugins.xml" parent="/plugins">
             <plugin name="ChildBrowser"
-                value="com.phonegap.plugins.childBrowser.ChildBrowser"/>
+                value="com.phonegap.plugins.childbrowser.ChildBrowser"/>
         </config-file>
 
         <source-file src="src/blackberry/ChildBrowser.java"
-                target-dir="com/phonegap/plugins/childbrowser" />
+                target-dir="www/ext/com/phonegap/plugins/childbrowser" />
         <source-file src="src/blackberry/CustomBrowser.java"
-                target-dir="com/phonegap/plugins/childbrowser" />
+                target-dir="www/ext/com/phonegap/plugins/childbrowser" />
         <source-file src="src/blackberry/NavigationBar.java"
-                target-dir="com/phonegap/plugins/childbrowser" />
+                target-dir="www/ext/com/phonegap/plugins/childbrowser" />
         <source-file src="src/blackberry/URLEditField.java"
-                target-dir="com/phonegap/plugins/childbrowser" />
+                target-dir="www/ext/com/phonegap/plugins/childbrowser" />
         <source-file src="src/blackberry/URLLabelField.java"
-                target-dir="com/phonegap/plugins/childbrowser" />
+                target-dir="www/ext/com/phonegap/plugins/childbrowser" />
     </platform>
 </plugin>
